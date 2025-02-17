@@ -1,0 +1,139 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeAll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "beforeEach",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testAddDonee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testFailDuplicateDonee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testFailNonExistentDoneeUpdate",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testToggleDoneeStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testUpdateDonee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"beforeAll()": {
+					"notice": "'beforeAll' runs before all other tests More special functions are: 'beforeEach', 'beforeAll', 'afterEach' & 'afterAll'"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/LaunchpadDoneeManager_test.sol": "LaunchpadDoneeManagerTest"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/access/Ownable.sol": {
+			"keccak256": "0xff6d0bb2e285473e5311d9d3caacb525ae3538a80758c10649a4d61029b017bb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ed324d3920bb545059d66ab97d43e43ee85fd3bd52e03e401f020afb0b120f6",
+				"dweb:/ipfs/QmfEckWLmZkDDcoWrkEvMWhms66xwTLff9DDhegYpvHo1a"
+			]
+		},
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0x493033a8d1b176a037b2cc6a04dad01a5c157722049bbecf632ca876224dd4b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a708e8a5bdb1011c2c381c9a5cfd8a9a956d7d0a9dc1bd8bcdaf52f76ef2f12",
+				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
+			]
+		},
+		"contracts/LaunchpadDoneeManager.sol": {
+			"keccak256": "0xba9b136dc949749451f282fa444d0e322dad5f83e47f03aa066bce928700f3e5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://74bba5078197391b28e31913955eb44b1f83d8d3962901c6340c9505233584b3",
+				"dweb:/ipfs/QmdybZ6iiDx6ouPr52fQANNzs4QDNsHasA96mo1QYba9dc"
+			]
+		},
+		"remix_accounts.sol": {
+			"keccak256": "0xab088ffd1cd1033f54c2486f151b5d02281a3b76724c8e6f48479c25a4f7809e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5ddaf9976b1838f7028cbedfaf7f6e1cf8c898e100221176ff1406ee8b599f23",
+				"dweb:/ipfs/QmX2FYLXYyo5Cn55ZX2CfngpscSh4mQhcMVzQdQsh2vqcG"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/LaunchpadDoneeManager_test.sol": {
+			"keccak256": "0x900686a84a2b8bfc84a1fa6541df98174e6f2549246f8690013ff6b53b9cae78",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c185dd81d92a311e5c50ac10ae411b89475d04b6bb51f860bc028eb4d7b81a5d",
+				"dweb:/ipfs/QmQarKjYxDhp3ZV8cofarKJ3n5f8y22iHj7zhVYRseohBL"
+			]
+		}
+	},
+	"version": 1
+}

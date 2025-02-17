@@ -37,7 +37,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Counter.sol": "Ownable"
+			"contracts/MyCounter.sol": "Ownable"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -51,12 +51,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Counter.sol": {
-			"keccak256": "0xc4c402f5cb1bf1beec9bf526123180e37e2ba1817eec1ec2f605ef66bd827890",
+		"contracts/MyCounter.sol": {
+			"keccak256": "0x8fb327eac5894b9107e05769fedd7bd3d1eda246c73c591f6e9d8b320f1b8f55",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://336e68a332a9895ae3e1df74859c0c8ad96296c15e68de1bb39b752f9b9e5cad",
-				"dweb:/ipfs/QmWfoiBPZoC14njkeJDNLax1ME6zboXiFupUD8K6BLXKCw"
+				"bzz-raw://09cc0398416252601ed5b03c6132d0ccbfcb3d0ad426d827496e0b3a1e964063",
+				"dweb:/ipfs/QmQAxbnErtB6iTULFuPRf7MkwDguCBBrMitD24ds7a9ank"
 			]
 		}
 	},
